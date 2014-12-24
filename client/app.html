@@ -1,0 +1,21 @@
+<head>
+  <title>My Phone Book</title>
+</head>
+
+<body>
+  {{> app}}
+</body>
+
+<template name="app">
+  <div id='app' class="container">
+    <h2 id="title">My Phone Book</h2>
+    <hr />
+    <input type='text' placeholder="search entries" id="search-box"/> 
+    <h4>Result ({{entryCount}} entries)</h4>
+    <ul>
+      {{#each entries}}
+        <li>{{name}} - {{phoneNo}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</template>

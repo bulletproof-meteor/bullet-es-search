@@ -1,0 +1,19 @@
+#search-box {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  width: 250px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  margin-top: 5px;
+}
